@@ -13,8 +13,8 @@ background-color: #CCC;
 width: 100vmin;
 height: 100vmin;
 display: grid ;
-grid-template-rows: (21,1fr);
-grid-template-columns: (21,1fr);
+grid-template-rows: repeat(21,1fr);
+grid-template-columns: repeat(21,1fr);
 }
 
 .snake {
