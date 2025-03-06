@@ -9,7 +9,7 @@ body {
 }
 
 #game-board {
-    background-color: #CCC;
+    background-image: url('https://wallpapersok.com/images/hd/mcdonald-s-food-joint-s5r272tk2tpb6t3x.jpg');
     width: 100vmin;
     height: 100vmin;
     display: grid;
@@ -18,11 +18,14 @@ body {
 }
 
 .snake {
-    background-color: orange;
+    
+    background-color: rgb(243, 237, 184);
     border: .25vmin solid black;
 }
 
 .food {
-    background-color: red;
+    background-color: rgb(0, 255, 0);
+    
+    background-size: contain;
     border: .25vmin solid black;
 }
