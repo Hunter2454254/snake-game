@@ -16,16 +16,27 @@ body {
     grid-template-rows: repeat(21, 1fr);
     grid-template-columns: repeat(21, 1fr);
 }
+ 
 
-.snake {
-    
-    background-color: rgb(243, 237, 184);
-    border: .25vmin solid black;
-}
+
+ .snake {
+    background-color: rgb(0, 255, 21);  
+    border: .25vmin solid black; 
+    background-image: url('https://img.freepik.com/premium-photo/serpent-unveiled-elaborate-snakeskin-circle-with-impeccable-precision-transparent-canvas_983420-188406.jpg');
+    background-size: contain; 
+    background-position: center;  
+    background-repeat: no-repeat; 
+    border-radius: 50%;
+} 
+
+
+
+
+
 
 .food {
-    background-color: rgb(0, 255, 0);
-    
+    background-color: rgb(255, 0, 0);  
     background-size: contain;
     border: .25vmin solid black;
+    border-radius: 50%;
 }
